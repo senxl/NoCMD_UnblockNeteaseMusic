@@ -1,0 +1,60 @@
+{
+  "_from": "@nondanee/unblockneteasemusic",
+  "_id": "@nondanee/unblockneteasemusic@0.25.3",
+  "_inBundle": false,
+  "_integrity": "sha512-Fgl0iRvuFCNhyFlovbqqnJQRomaFVjMLosS1hRUd/X47y6HeNlQsxa9c8RtmeLwNnZ27rj0DsUZlECqU7FyNPA==",
+  "_location": "/@nondanee/unblockneteasemusic",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@nondanee/unblockneteasemusic",
+    "name": "@nondanee/unblockneteasemusic",
+    "escapedName": "@nondanee%2funblockneteasemusic",
+    "scope": "@nondanee",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/@nondanee/unblockneteasemusic/-/unblockneteasemusic-0.25.3.tgz",
+  "_shasum": "72d936f18f46523a2b929b8eaec8dfd2acf25e7e",
+  "_spec": "@nondanee/unblockneteasemusic",
+  "_where": "C:\\Windows\\system32",
+  "author": {
+    "name": "nondanee"
+  },
+  "bin": {
+    "unblockneteasemusic": "app.js"
+  },
+  "bugs": {
+    "url": "https://github.com/nondanee/UnblockNeteaseMusic/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Revive unavailable songs for Netease Cloud Music",
+  "homepage": "https://github.com/nondanee/UnblockNeteaseMusic#readme",
+  "license": "MIT",
+  "main": "src/provider/match.js",
+  "name": "@nondanee/unblockneteasemusic",
+  "pkg": {
+    "assets": [
+      "server.key",
+      "server.crt"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nondanee/UnblockNeteaseMusic.git"
+  },
+  "scripts": {
+    "pkg": "pkg . --out-path=dist/"
+  },
+  "version": "0.25.3"
+}
